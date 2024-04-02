@@ -59,12 +59,6 @@ body {
     display: block;
 }
 
-.ativo{
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
-}
-
-
 .botao:first-child{
     border-radius: 40px 40px 0 0;
 }
@@ -105,3 +99,13 @@ body {
 .aba-conteudo{
     display: none;
 }
+
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+
+
+
